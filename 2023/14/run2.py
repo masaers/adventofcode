@@ -56,15 +56,15 @@ def cycle(lines, hlist, hdict):
     changes = north(lines)
     while changes != 0:
         changes = north(lines)
-    # changes = west(lines)
-    # while changes != 0:
-    #     changes = west(lines)
-    # changes = south(lines)
-    # while changes != 0:
-    #     changes = south(lines)
-    # changes = east(lines)
-    # while changes != 0:
-    #     changes = east(lines)
+    changes = west(lines)
+    while changes != 0:
+        changes = west(lines)
+    changes = south(lines)
+    while changes != 0:
+        changes = south(lines)
+    changes = east(lines)
+    while changes != 0:
+        changes = east(lines)
     enc = encode(lines)
     hlist.append(enc)
     if enc not in hdict:

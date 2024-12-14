@@ -13,7 +13,7 @@ MAP = { card: chr(ord("A")+i) for i, card in enumerate(reversed(ORDER)) }
 # print(f"{ORDER=} {MAP=}")
 def main():
     result = 0
-    # path = "example"
+    path = "example"
     path = "input"
     hands = []
     with open(path, "r") as f:

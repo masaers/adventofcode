@@ -73,6 +73,7 @@ def main(path):
                     inside = not inside
                 prev_bend = ""
     result = np.sum(np.logical_and(q, ~on_loop))
+    # 377 too high
     print(result)
     
     

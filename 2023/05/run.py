@@ -18,7 +18,7 @@ def main():
     target = ""
     ranges = []
     with open("input", "r") as f:
-    # with open("example", "r") as f:
+        # with open("example", "r") as f:
         for line in f.readlines():
             line = line[:-1]
             # print(line)

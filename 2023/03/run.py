@@ -5,6 +5,7 @@ import sys
 def main():
     lines = []
     with open("input", "r") as f:
+        # with open("example", "r") as f:
         for line in f.readlines():
             lines.append(line[:-1])
     # print(lines)

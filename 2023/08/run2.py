@@ -8,8 +8,8 @@ LR = {
 }
 def main():
     result = 0
-    path = "input"
-    # path = "example2"
+    # path = "input"
+    path = "example2"
     states = []
     with open(path, "r") as f:
         seq = [ LR[x] for x in f.readline() if x in LR ]

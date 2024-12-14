@@ -96,6 +96,7 @@ def main(path):
     # inside = scanline_discrete_blocks(board, axis=-1)
     # result = np.sum(inside)
     result = np.sum(((np.cumsum(np.abs(bdx), axis=1) % 2) + board) != 0)
+    # 62164 too high
     print(result)
     
     
